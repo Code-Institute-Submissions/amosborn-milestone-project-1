@@ -91,6 +91,24 @@
     font-size: 1.5em;
 }
 
+/*---------------------------------Video*/
+
+.video-container {
+    margin-top: 50px;
+    background: url(../images/white_ladder_20th_anniversary.jpg) no-repeat top center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 50px;
+}
+
+.video-heading {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
 /*---------------------------------Tour*/
 
 .tour-container {

@@ -14,74 +14,191 @@
 
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-default fixed-top navbar-expand-sm navbar-light">
             <a class="navbar-brand" href="index.html" class="logo">
                 David Gray
             </a>
-            <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#mynavbar">
+                <span class="sr-only">Toggle navigation</span>
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="active nav-item ml-auto">
-                        <a class="nav-link" href="index.html">Home</a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="#music">Music</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="music.html">Music</a>
+                        <a class="nav-link" href="#tour">Tour</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="photos.html">Photos</a>
-                    </li>
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="sign-up.html">Sign Up</a>
+                        <a class="nav-link" href="#signup">Sign Up</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </header>
-
-    <div class="container-fluid home-container mt-5">
-        <div class="row">
-            <div class="col-4">
-                <section class="jumbotron jumbotron-header">
-                    <h1></h1>
-                    <p class="lead">Lorem ipsum dolor sit</p>
-                </section>
+        <div class="container-fluid home-container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="jumbotron jumbotron-header">
+                            <p class="lead">Back on tour with 20th anniversay of White Ladder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    <section id="about">
+        <div class="container-fluid about-container">
+            <div class="row">
+                <div class="col-6">
+                    <section>
+                        <h2>ABOUT</h2>
+                        <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem
+                            insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                            Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+                            in futurum.</p>
+                    </section>
+                </div>
             </div>
         </div>
-    </div>
-
-    <footer class="container-fluid">
-        <div class="row">
-            
+    </section>
+    
+    
+    <section id="music">
+        <div class="container">
+            <div class="container-fluid">
+                <h2>MUSIC</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="assets/images/white_ladder_20th_anniversary.jpg" class="img-fluid" alt="White ladder 20th anniversary edition">
+                    <button class="btn btn-lg">BUY NOW</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/gold_in_a_brass_age.jpg" class="img-fluid" alt="Gold in a brass age">
+                    <button class="btn btn-lg">BUY NOW</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/greatest_hits.jpg" class="img-fluid" alt="Greatest hits">
+                    <button class="btn btn-lg">BUY NOW</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/life_in_slow_motion.jpg" class="img-fluid" alt="Life in slow motion">
+                   <button class="btn btn-lg">BUY NOW</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/white_ladder.jpg" class="img-fluid" alt="White ladder">
+                    <button class="btn btn-lg">BUY NOW</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/sell_sell_sell.jpg" class="img-fluid" alt="Sell sell sell">
+                    <button class="btn btn-lg">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <section id="tour">
+        <div class="container-fluid tour-container">
+            <div class="row">
+                <h2>TOUR</h2>
+            </div>
+            <div class="tour-details">
+                <div class="row">
+                    <div class="col-sm-3">20 March 2020</div>
+                    <div class="col-sm-3">M&S Bank Arena</div>
+                    <div class="col-sm-3">Liverpool, England</div>
+                    <div class="col-sm-3"><button class="btn btn-lg btn-dark">BOOK</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">21 March 2020</div>
+                    <div class="col-sm-3">SSE Hydro</div>
+                    <div class="col-sm-3">Glasgow, Scotland</div>
+                    <div class="col-sm-3"><button class="btn btn-lg btn-dark">BOOK</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">22 March 2020</div>
+                    <div class="col-sm-3">Motorpoint Arena</div>
+                    <div class="col-sm-3">Cardiff, Wales</div>
+                    <div class="col-sm-3"><button class="btn btn-lg btn-dark">BOOK</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">24 March 2020</div>
+                    <div class="col-sm-3">Bournemouth Internationnal Centre</div>
+                    <div class="col-sm-3">Bourrnemouth, England</div>
+                    <div class="col-sm-3"><button class="btn btn-lg btn-dark">BOOK</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">26 March 2020</div>
+                    <div class="col-sm-3">O2 Arena</div>
+                    <div class="col-sm-3">London, England</div>
+                    <div class="col-sm-3"><button class="btn btn-lg btn-dark">BOOK</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">27 March 2020</div>
+                    <div class="col-sm-3">First Direct Arena</div>
+                    <div class="col-sm-3">Leeds, England</div>
+                    <div class="col-sm-3"><button class="btn btn-lg btn-dark">BOOK</button></div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    
+    <section id="signup" class="container-fluid signup-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2>SIGN UP</h2>
+                    <h4>to receive news on David Gray's music and tour information.</h4>
+                    <form class="format-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter name" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter email address" required/>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        <footer class="container-fluid">
+        <div class="row no-gutters">
             <div class="col-sm-4">
                 <h5 class="uppercase">Social media links:</h5>
             </div>
             <div class="col-sm-4">
                 <ul class="list-inline social-media-links">
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.facebook.com/davidgray" target="_blank">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.instagram.com/davidgray/" target="_blank">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://twiter.com/DavidGray" target="_blank">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.youtube.com/TheRealDavidGray" target="_blank">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
@@ -95,6 +212,7 @@
 
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

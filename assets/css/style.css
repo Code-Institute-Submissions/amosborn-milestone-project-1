@@ -1,0 +1,171 @@
+
+
+/*--------------------------------General Styles*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*--------------------------------Heading*/
+
+.navbar {
+    background: #3760b8;
+    color: #fafafa;
+    width: 100%;
+    margin-bottom: 0;
+    border:0;
+
+}
+
+.navbar .logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #fafafa; 
+}
+
+
+/*--------------------------------Home page*/
+
+.home-container {
+    margin-top: 50px;
+    height: 100vh;
+    background: url(../images/davidgray1.jpg) no-repeat top center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.home-container .jumbotron {
+    background-color: transparent !important;
+}
+.homepage-header {
+    font-weight: 500;
+}
+
+/*---------------------------------About*/
+
+.about-container {
+    margin-top: 50px;
+    height: 100vh;
+    background: url(../images/davidgray4.jpg) no-repeat bottom center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.about-heading {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about-paragraph {
+    color: #fff;
+    background-color: transparent !important;
+}
+
+/*---------------------------------Music*/
+
+.music-container {
+    margin-top: 50px;
+    background-color: #99738e;
+}
+
+.music-heading {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.music-grid {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/*---------------------------------Tour*/
+
+.tour-container {
+    margin-top: 50px;
+    background: url(../images/davidgray3.jpg) no-repeat top center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.tour-heading {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tour-grid {
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+/*---------------------------------Sign Up*/
+
+.signup-container {
+    padding-top: 60px;
+}
+
+.format-form {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    max-width: 70%;
+}
+
+/*---------------------------------Footer*/
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #99738e;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.social-media-links {
+    
+}
+
+.social-media-links  li a i {
+    height: 40px;
+    width: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #3760b8;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-media-links li a i:hover {
+    background-color: #50565e;
+}
+
+/*---------------------------------Media Queries*/
+
+@media (max-)
